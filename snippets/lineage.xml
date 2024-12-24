@@ -21,7 +21,7 @@
   <project path="external/libncurses" name="LineageOS/android_external_libncurses" />
   <project path="external/nano" name="LineageOS/android_external_nano" />
   <project path="external/ntfs-3g" name="LineageOS/android_external_ntfs-3g" />
-  <project path="external/openssh" name="LineageOS/android_external_openssh" groups="pdk" />
+  <project path="external/openssh" name="lineageuser/android_external_openssh" groups="pdk" revision="lineage-22.1" />
   <project path="external/rsync" name="LineageOS/android_external_rsync" />
   <project path="external/unrar" name="LineageOS/android_external_unrar" />
   <project path="external/vim" name="LineageOS/android_external_vim" />
@@ -219,4 +219,13 @@
   <!-- Tools -->
   <project path="lineage/contributors-cloud-generator" name="LineageOS/contributors-cloud-generator" groups="tools" revision="main" />
   <project path="lineage/scripts" name="LineageOS/scripts" groups="tools" revision="main" />
+  
+  <!--Pixel 8 device tree and Vendor -->  
+  <project path="device/google/shiba" remote="github" name="LineageOS/android_device_google_shiba" revision="lineage-22.1" />
+  <project path="vendor/google/shiba" remote="github" name="murikbmx/proprietary_vendor_google_shiba" revision="lineage-22.1" />
+  <project path="device/google/shusky" remote="github" name="murikbmx/android_device_google_shusky" revision="lineage-22.1" />
+  <project path="device/google/zuma" remote="github" name="LineageOS/android_device_google_zuma" revision="lineage-22.1" />
+  <project path="device/google/shusky-kernels/5.15" remote="aosp-shusky" name="device/google/shusky-kernels/5.15" clone-depth="1" />
+  <project path="device/google/gs101" remote="github" name="LineageOS/android_device_google_gs101" revision="lineage-22.1" />
+  <project path="device/google/gs-common" remote="github" name="LineageOS/android_device_google_gs-common" revision="lineage-22.1" />
 </manifest>
