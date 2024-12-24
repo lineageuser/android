@@ -923,7 +923,7 @@
   <project path="external/universal-tween-engine" name="platform/external/universal-tween-engine" remote="aosp" clone-depth="1" />
   <project path="external/uwb" name="platform/external/uwb" groups="pdk" remote="aosp" clone-depth="1" />
   <project path="external/v4l2_codec2" name="platform/external/v4l2_codec2" groups="pdk" remote="aosp" clone-depth="1" />
-  <project path="external/vboot_reference" name="platform/external/vboot_reference" groups="pdk" remote="aosp" clone-depth="1" />
+  <project path="external/vboot_reference" name="platform/external/vboot_reference" groups="pdk" remote="aosp" revision="refs/tags/android-15.0.0_r5" clone-depth="1" />
   <project path="external/virglrenderer" name="platform/external/virglrenderer" groups="pdk" remote="aosp" clone-depth="1" />
   <project path="external/vixl" name="platform/external/vixl" groups="pdk" remote="aosp" clone-depth="1" />
   <project path="external/vogar" name="platform/external/vogar" groups="pdk" remote="aosp" clone-depth="1" />
